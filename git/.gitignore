@@ -1,0 +1,49 @@
+###Emacs###
+# -*- modo: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.el C
+lista de guardado automático
+vagabundo
+.\#*
+
+# Modo Org
+.org-id-ubicaciones
+*_archivo
+
+# modo flymake
+*_maquillaje de moscas.*
+
+# archivos eshell
+/eshell/historia
+/eshell/últimodir
+
+#paquetes elpa
+/elpa/
+
+# archivos reftex
+*.rel
+
+# Carpeta automática AUCTeX
+/auto/
+
+# paquetes de barriles
+.barril/
+dist/
+
+# control de vuelo
+flycheck_*.el
+
+# directorio de autenticación del servidor
+/servidor/
+
+# archivos de proyectiles
+.proyectil
+
+# configuración del directorio
+.dir-locales.el
+
+# Seguridad de la red
+/red-seguridad.datos
